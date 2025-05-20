@@ -114,7 +114,7 @@ class ImageRowLast extends StatelessWidget {
   
        Expanded(
          child: Card(
-          shadowColor: Colors.amber,
+          shadowColor: Colors.red,
            child: SizedBox(
             height: 220,
             child: Padding(
@@ -134,6 +134,14 @@ class ImageRowLast extends StatelessWidget {
                     maxLines: 7,
                     overflow: TextOverflow.clip,
                     textAlign: TextAlign.justify,
+                  ),
+
+
+                   ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.orange
+                    ),
+                    onPressed: (){}, child: Text('Conocer mas', style: TextStyle(color: Colors.black),)
                   )
                 ],
               ),
